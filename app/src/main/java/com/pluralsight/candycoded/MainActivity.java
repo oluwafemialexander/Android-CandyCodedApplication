@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     Intent infoIntent = new Intent(this, InfoActivity.class);
     startActivity(infoIntent);
     return super.onOptionsItemSelected(item);
+
   }
 
   @Override
